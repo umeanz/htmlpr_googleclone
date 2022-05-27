@@ -5,11 +5,9 @@ html{
 }
 
 body{
-    width: 100vw;
-    height: auto;
-    /* background: royalblue; */
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 a{
@@ -22,6 +20,7 @@ a{
 .container{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 img{
     display: block;
@@ -187,11 +186,11 @@ button:hover{
 /* Googleoffer */
 
 .googleof{
-    width: 100vw;
     height: 225px;
     justify-content: center;
     align-items: flex-start;
     display: flex;
+    flex-grow: 1;
     
 }
 
@@ -213,7 +212,6 @@ button:hover{
 
 /* footer */
 footer{
-width: 100vw;
 display: flex;
 background: #dadce0;
 flex-direction: column;
@@ -230,7 +228,7 @@ flex-shrink: 0;
 footer .bottom{
     display: flex;
     padding: 0 20px;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     
 }
@@ -238,7 +236,8 @@ footer .bottom{
 footer .bottom .compbuise{
 
     font-size: 14px;
-        display: flex;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 footer .bottom .compbuise a{
@@ -249,6 +248,7 @@ footer .bottom .compbuise a{
 footer .bottom .compinfo{
     font-size: 14px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
